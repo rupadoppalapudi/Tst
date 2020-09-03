@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>CSS Task_2</title>
+      <!--------------    ( link to stylesheet for styling recently opened tabs)  ----------->
+      <link href="style.css" type="text/css" rel="stylesheet">
+      <!--------------    ( link to stylesheet for notification icon)      ------------------>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <ul id="nav-bar">
+        <li><a href="#" class="nav-bar-opacity">Gmail</a></li>
+        <li><a href="#" class="nav-bar-opacity">Images</a></li>
+        <li><a href="#"><div id="menu-icon" class="nav-bar-opacity"></div></a></li>
+        <!--------------    ( includes notification bell icon )  ----------->
+        <li><a href="#" class="nav-bar-opacity"><i class="fa fa-bell" style="font-size:20px; border-radius: 17px"></i></a></li>
+        <!--------------    ( includes profile picture )  ------------------>
+        <li><a href="#" class="nav-bar-opacity"><img style="width:30px; height:25px; border-radius: 17px" src="https://lh3.googleusercontent.com/ogw/ADGmqu9BgciAneQfFyN6970pP5W_LEqJGmkE5DOEFrAU=s32-c-mo"></a></li>
+      </ul>
+
+      <div class="main-content">
+        <div id="logo">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div id="search-bar">
+          <input type="text" name="search">
+          <a href="#" id="speech-link"><img src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365" alt="Speech icon"></a>
+        </div>
+        <div class="buttons">
+          <button name="Google-Search"><p>Google Search</p></button>
+          <button name="Feeling-Lucky"><p>I'm Feeling Lucky</p></button>
+        </div>
+
+        <!--------------    ( include recently closed tabs below search icon )  ----------->
+        <div class="recent">
+          <span class="tab"><a href="https://www.google.com/"><img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/20068680/Screen_Shot_2020_07_06_at_10.02.34_AM.png"></a></span>
+          <span class="tab"><a href="https://www.gmail.com/"><img src="https://www.howtogeek.com/wp-content/uploads/2018/04/gmail-new-featured.png.pagespeed.ce.UwK_y_jHoK.png"></a></span>
+          <span class="tab"><a href="https://www.github.com/"><img src="https://alanhylands.com/static/c2fa56d4d8c01cbd37f89e9baca55950/5a190/jupgit_1.png"></a></span>
+          <span class="tab"><a href="https://www.w3schools.com/"><img src="https://www.thecrazyprogrammer.com/wp-content/uploads/2015/01/W3Schools-Offline-Version-Download-2016-Latest-Full-Website.jpg"></a></span>
+        </div>
+        <div class="recent">
+          <span class="tab"><a href="https://www.hackerrank.com/"><img src="https://cdn0.capterra-static.com/screenshots/2101537/22409.png"></a></span>
+          <span class="tab"><a href="https://www.facebook.com/"><img src="https://www.incimages.com/uploaded_files/inlineimage/630x0/Screen%20Shot%202019-08-29%20at%206.52.50%20AM_54328.png"></a></span>
+          <span class="tab"><a href="https://umkc.instructure.com/"><img src="https://d2y36twrtb17ty.cloudfront.net/sessions/8d3bfffb-9f89-4fee-a646-a9d7013bb676/cb4e3a33-36d6-416d-9737-a9d7013ed635_et/thumbs/slide0.jpg"></a></span>
+          <span class="tab"><a href="https://www.leetcode.com/"><img src="https://miro.medium.com/max/1844/1*VQusdGhR6NSc_rHDO24ztw.png"></a></span>
+        </div>
+      <!-- </div> -->
+    </div>
+    </body>
+    <footer>
+      <div class="bottom-nav">
+        <ul class="ul-left">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="ul-right">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+
+        </ul>
+      </div>
+    </footer>
+  </html>

@@ -175,18 +175,26 @@ footer a:hover {
 }
 
 .recent{
-display: flex;
-width: 100%;
-padding: 0;
-margin: 0;
-line-height:30px;
-justify-content: center;
+  display: flex;
+  width: 75%;
+  max-width: 750px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .tab {
-  text-align: center;
-  color: white;
-  height: 70px;
-  width: 70px;
-  margin: 5px;
+  height: 100px !important;
+  width: 100px !important;
+  padding-right:5px;
+}
+
+.tab img{
+  object-fit: contain;
+  width: 100px;
+}
+
+.tab text{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
 }
