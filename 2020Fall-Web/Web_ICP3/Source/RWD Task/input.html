@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<!--
+TODO:
+1.Enter your name in h1 and designation in h3
+2.Replace all the placeholder images with suitable images of the same size reflecting you and your projects.Feel free to use the sample images provided
+3.Replace the content of headings App1,App2,App3,App4 with suitable headings of your projects & provide their github links in the corresponding links
+4.Make all the elements in the page responsive & align its content as shown in the output sample with the aforementioned using bootstrap
+
+-->
+
+<html lang="en">
+<head>
+    <!-------------------------- meta tag to include viewport ----------------------------->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>RWD Bootstrap</title>
+
+    <!---------------------------- link to Bootstrap CSS-------------------------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!---------------------------- creating  a container -------------------------------------->
+<div class="container">
+    <!-------------------------------- defining rows -------------------------------------->
+    <div class="row first">  <!-- first row of container -->
+        <!-------------------------------- defining columns ------------------------------->
+        <!-- dividing 12 columns -->
+        <div class="col-3">  <!-- assigning first 3 columns for profile picture -->
+            <!---------------------- assigning content to columns ------------------------->
+            <<img src="Images/pic.jpg" alt="profile pic" class="img-thumbnail profile-pic" style="width:100px;height: 100px;"> <!-- media-object -->
+
+        </div>
+        <div class="col-9">  <!-- assigning remaining 9 columns for details -->
+            <div class="info">
+                <h3 style="color: #2b542c">Rupa Sri Doppalapudi </h3>
+                <p  style="color: #2b542c" align="right"> Graduate Student at UMKC <br> Second Semester</p>
+            </div>
+        </div>
+    </div>
+    <!-- feature work/main image of the page -->
+    <div class="row">
+        <div class="col">
+            <div class="main">
+                <img src="Images/web_mobile_pic.PNG" class="img-thumbnail profile-pic" style="width:1140px;height: 350px;" alt="Web Mobile pic"/>
+                <h3 class="info">Featured work</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- assigning the image and links-->
+    <div class="row info">
+        <div class="col">
+            <img src="Images/github_pic.PNG" class="img-thumbnail profile-pic" style="width:555px;height: 300px;" alt="GitHub pic"/>
+            <h3>GitHub Task</h3> <!-- App1 -->
+            <p><a href="https://github.com/rupadoppalapudi/WebMobile-2020Fall/tree/master/2020Fall-Web/Web_ICP1">View Task_ICP1</a></p>
+        </div>
+        </div>
+
+    <!-- dividing the row into 2 parts and assigning the image and links-->
+    <div class="row info">
+        <div class="col">
+            <img src="Images/html_pic.PNG" class="img-thumbnail profile-pic" style="width:555px;height: 300px;" alt="HTML pic"/>
+            <h3>HTML Task</h3>
+            <p><a href="https://github.com/rupadoppalapudi/WebMobile-2020Fall/tree/master/2020Fall-Web/Web_ICP2">View Task_ICP2</a></p>
+        </div>
+        <div class="col">
+            <img src="Images/css_pic.PNG" class="img-thumbnail profile-pic" style="width:555px;height: 300px;" alt="CSS pic"/>
+            <h3>CSS Task</h3>
+        </div>
+    </div>
+
+    <!-- last row of container -->
+    <div class="row last">
+        <div class="col">
+            <img src="Images/rwd_pic.PNG" class="img-thumbnail profile-pic" style="width:555px;height: 300px;" alt="RWD pic"/>
+            <h3>RWD Task</h3>
+            <p><a href="https://github.com/rupadoppalapudi/WebMobile-2020Fall/tree/master/2020Fall-Web/Web_ICP3">View Task_ICP3</a></p>
+        </div>
+    </div>
+
+
+    </div>
+
+
+<!------------------------------ links to JavaScript ( jQuery, Popper.js, Bootstrap JS ) --------------------------------
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+-->
+
+</body>
+</html>

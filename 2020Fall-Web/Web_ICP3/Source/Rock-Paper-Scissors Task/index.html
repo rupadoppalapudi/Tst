@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors</title>
+    <! -------------------------------- Link to CSS -------------------------------------------->
+    <link href="rps_styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<! ------------------------------------- Headings  --------------------------------------------->
+<div class="headings">
+   <h1>ROCK PAPER SCISSORS</h1>
+    <h2>Let's play the game!!</h2>
+ </div>
+
+<br>
+
+<! ------------------------ Score Board - ( USER : COMPUTER ) ----------------------------------->
+ <div class="score">
+    <div class="players">USER : COMPUTER</div>
+    <span id="user">0</span> : <span id="computer">0</span>
+</div>
+
+<! ------------------------------------ Result - Win/ Lose/ Draw ------------------------------->
+<div class="result">
+    <img id="tst" src="https://8020bjj.com/wp-content/uploads/2019/04/is-it-a-draw-or-a-double-loss-2-845x321.jpg" >
+    <p>START: Select your choice </p>
+</div>
+
+<! ------------------ 3 options(Images) available for user (Rock,Paper,Scissors) ----------------->
+<div class="options">  <! -- choices -->
+    <span class="option" id="r">
+    <img src="https://icon-library.com/images/spock-icon/spock-icon-4.jpg" alt="rock" > </span>
+    <span class="option" id="p">
+    <img src="https://icon-library.com/images/spock-icon/spock-icon-3.jpg" alt="paper"> </span>
+    <span class="option" id="s">
+    <img src="https://icon-library.com/images/spock-icon/spock-icon-5.jpg" alt="scissors"> </span>
+</div>
+
+<! -------------------------------- Link to javascript -------------------------------------------->
+<script src="rps.js"></script>
+
+</body>
+</html>
