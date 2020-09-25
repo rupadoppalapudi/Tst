@@ -1,0 +1,61 @@
+.heading{
+  background: midnightblue;
+  color: white;
+}
+
+.mg_rt {
+  margin-right: 10px;
+}
+
+.mg_rt_label {
+  margin-right: 20px;
+}
+
+.padding {
+  padding-top:10px;
+}
+
+.mg_top {
+  margin-top:20px;
+}
+
+.todos {
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  margin: 10px auto;
+  box-shadow: 4px 4px #ccc;
+  border-radius: 20px;
+  background: #cccccc;
+}
+
+.delete {
+  float: right;
+}
+
+.list-item-card.completed {
+  border-left:20px solid green;
+}
+
+.list-card {
+  padding: 0px;
+}
+
+.list-item-card {
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  margin: 10px auto;
+  box-shadow: 2px 2px #ccc;
+  border-radius: 10px;
+  background: lightseagreen;
+}
+
+.txt_col{
+  background: lightseagreen ;
+  color: antiquewhite;
+}
+
+.colr{
+  color: antiquewhite;
+}

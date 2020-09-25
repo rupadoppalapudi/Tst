@@ -1,0 +1,45 @@
+<div class="todos">
+  <header class="text-center">
+    <h1 class = "heading">To-do - Countdown Timer</h1>
+  </header>
+
+  <form>
+    <div class="row">
+      <!------------------- first 5 columns for input field where user enter to-do text -------------------->
+      <div class="col-5">
+        <input type="text" class="form-control" placeholder="Enter todo task" name="todo" [(ngModel)]="todo">
+      </div>
+      <!---------------------------- next 5 columns to select date & time ---------------------------------->
+      <div class="col-5">
+        <input type="datetime-local" class="form-control" id="tasktime" [(ngModel)]="time" name="time">
+      </div>
+      <!------------------------------ next 2 columns for save button -------------------------------------->
+      <div class="col-2">
+        <button type="button" class="btn btn-success colr" (click)="saveTodo()">Save Todo</button>
+      </div>
+    </div>
+  </form>
+  <div class="todo-list mg_top">
+    <ul class="todo-list list-card">
+      <li class="list-item-card padding" *ngFor="let todo of todos;let i=index" [class.completed]="todo.completed">
+        <div class="view">
+          <input class="toggle mg_rt" type="checkbox" (click)="toggleTodoComplete(i)" [checked]="todo.completed">
+          <label class="mg_rt_label">{{todo.name}}</label>
+          <span class="status mg_rt_label">
+            <!---------------------------------- to-do task status --------------------------------------->
+            {{todo.completed ? 'Done' : 'Pending!'}}     </span>
+
+          <span *ngIf="countDownTimes[i]">
+            <!---------------------------------- Countdown-timer ----------------------------------------->
+                    <span class="btn btn-primary mg_rt txt_col">{{countDownTimes[i]?.months + 'mt'}}</span>
+                    <span class="btn btn-primary mg_rt txt_col">{{countDownTimes[i]?.days + 'd'}}</span>
+                    <span class="btn btn-primary mg_rt txt_col">{{countDownTimes[i]?.hours + 'h'}}</span>
+                    <span class="btn btn-primary mg_rt txt_col">{{countDownTimes[i]?.minutes + 'm'}}</span>
+                    <span class="btn btn-primary mg_rt txt_col">{{countDownTimes[i]?.seconds + 's'}}</span>
+                </span>
+          <button class="btn btn-danger delete mg_rt del colr" (click)="removeTodo(i)">Delete</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
