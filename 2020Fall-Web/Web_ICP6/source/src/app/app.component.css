@@ -1,0 +1,72 @@
+.venue-item .card {
+  border-radius: 25px;
+  box-shadow: 3px 3px #ccc;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.bg_col{
+  background:  #4c4066;
+}
+
+.stylings{
+  color: #4c4066;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results .recipe {
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.results .restaurant {
+  border: 1px solid #ccc;
+}
+
+.item {
+  position: relative;
+}
+
+.item .card-title {
+  position: absolute;
+}
+
+.item .category {
+  position: absolute;
+  top: 40%;
+}
+
+.item .address {
+  position: absolute;
+  bottom: 0px;
+}
+
+.recipe-item {
+  position: relative;
+}
+
+.recipe-item .recipe-item-title {
+  position: absolute;
+  top: 0px;
+}
+
+.recipe-item .recipe-item-url {
+  position: absolute;
+  bottom: 0px;
+}
+
+.recipe-img {
+  position: absolute;
+  right: 21px;
+  width: 150px;
+  border-radius: 70px;
+}
+
+.list {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}

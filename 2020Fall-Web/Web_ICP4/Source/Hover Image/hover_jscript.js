@@ -5,7 +5,7 @@ function upDate(previewPic){
     //fetching values from html elements
     const img = document.getElementById("image");
 
-       // changes the url for the background image of html element(#image) to the source file of the preview image
+       // changes the url for the background image of html element(#image) to the tmp file of the preview image
        img.style.backgroundImage = "url("+previewPic.src+")";
 
        //Changes the text of html element(#image) to the alt text of the preview image
