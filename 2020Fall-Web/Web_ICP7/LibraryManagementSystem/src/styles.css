@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files
+ including background image
+ */
+
+body {
+  margin: 0 5%;
+  padding-top: 3%;
+  font-color: black;
+  background-image: url("assets/image4.PNG");
+  background-repeat: no-repeat;background-size: cover;background-position: center;height: 100vh;
+  align-content: center;
+}
+
+
+#heading{
+  color: midnightblue;
+  text-align: center;
+}

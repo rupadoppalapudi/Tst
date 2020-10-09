@@ -17,7 +17,7 @@ export class RestaurantsService {
   }
 
   getRestaurantByItem(itemName: string, cityName: string) {
-    const url = this.url + `&near=${cityName}&query=${itemName}`;
+    const url = this.url + `&near=${cityName}`;
     return this.http.get(url);
   }
 }

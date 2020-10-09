@@ -1,0 +1,32 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-full-width:nth-last-child {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 50%;
+  align-content: center;
+  padding-left: 25%;
+}
+
+.header {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.bck{
+  background-color: midnightblue;
+  color: white;
+}
