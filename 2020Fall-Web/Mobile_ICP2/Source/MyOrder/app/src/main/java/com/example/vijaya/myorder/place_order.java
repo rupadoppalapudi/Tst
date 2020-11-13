@@ -180,11 +180,11 @@ public class place_order extends AppCompatActivity implements AdapterView.OnItem
         quantityTextView.setText("" + number);
     }
 
-    public void callStore(View view) {
-        Intent callIntent = new Intent(Intent.ACTION_CALL);
-        callIntent.setData(Uri.parse("tel:2244466666"));
-        startActivity(Intent.createChooser(callIntent, ""));
-    }
+//    public void callStore(View view) {
+//        Intent callIntent = new Intent(Intent.ACTION_CALL);
+//        callIntent.setData(Uri.parse("tel:2244466666"));
+//        startActivity(Intent.createChooser(callIntent, ""));
+//    }
     @Override
 
 

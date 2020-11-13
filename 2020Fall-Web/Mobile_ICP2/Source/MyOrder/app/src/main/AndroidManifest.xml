@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/pizza_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".summary"></activity>
+        <activity android:name=".find_hotel"></activity>
+        <activity android:name=".summary" />
         <activity android:name=".place_order" />
         <activity android:name=".MainActivity">
             <intent-filter>

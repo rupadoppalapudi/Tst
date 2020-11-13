@@ -23,7 +23,7 @@
     <string name="order">Order</string>
 
     <!--Name format for the order summary. It will be shown in the format of "Name: Kranthi"  where "Kranthi" is the user's name. [CHAR LIMIT=NONE]-->
-    <string name="order_summary_name">Name:<xliff:g example="Rahul" id="name">%s</xliff:g></string>
+    <string name="order_summary_name">Name:<xliff:g example="Rupa" id="name">%s</xliff:g></string>
     <!--display "yes" as an answer to any question-->
     <string name="yes">Yes</string>
     <!--display "no" as an answer to any question-->
