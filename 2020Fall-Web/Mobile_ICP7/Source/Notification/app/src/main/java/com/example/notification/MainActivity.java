@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         calendarView = (CalendarView) findViewById(R.id.calendarView);
         currentDate = (TextView) findViewById(R.id.currentDate);
         Button addEvent;
